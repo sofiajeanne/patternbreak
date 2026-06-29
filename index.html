@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Pattern Break is Sofia-Jeanne Caring's relational practice container for noticing old patterns, contacting aliveness, and making one clean new move."
+    />
+    <title>Pattern Break | Sofia-Jeanne Caring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="eyebrow">Pattern Break</div>
+        <h1 id="page-title">Meet the self beneath the pattern.</h1>
+        <p class="hero-copy">
+          You feel it, don’t you? That pull, like you’re circling the same
+          pattern again and again. Pattern Break is a live relational practice
+          space for noticing what has been running the show, stepping outside
+          the familiar, and choosing one clean new move.
+        </p>
+        <div class="hero-actions" aria-label="Page actions">
+          <a class="button button-primary" href="#signup">Join the interest list</a>
+          <a class="button button-secondary" href="#what-it-is">What is this?</a>
+        </div>
+      </section>
+
+      <section class="quote-card" aria-label="Pattern Break quote">
+        <p>
+          “Tomorrow your patterns will be exactly the same, unless you perform a
+          pattern break.”
+        </p>
+      </section>
+
+      <section id="what-it-is" class="content-grid" aria-label="About Pattern Break">
+        <article class="card">
+          <span class="card-kicker">The practice</span>
+          <h2>A relational laboratory for becoming more alive.</h2>
+          <p>
+            Rather than only talking about patterns, we create real interactions
+            where you can see them in motion and experiment with a new way of
+            being. The work is embodied, immediate, and done with other humans.
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-kicker">The move</span>
+          <h2>Notice. Feel. Name. Choose.</h2>
+          <p>
+            We notice the pattern without shame, locate the body state beneath
+            it, name the old protection, contact desire or truth, then make one
+            clean new relational move.
+          </p>
+        </article>
+        <article class="card">
+          <span class="card-kicker">The flavor</span>
+          <h2>Enough safety to soften. Enough challenge to transform.</h2>
+          <p>
+            Pattern Break lives in the charged territory of aliveness: intimacy,
+            power, money, sexuality, anger, play, grief, longing, leadership,
+            visibility, and voice.
+          </p>
+        </article>
+      </section>
+
+      <section class="steps" aria-labelledby="how-it-works-title">
+        <div>
+          <span class="eyebrow">How it works</span>
+          <h2 id="how-it-works-title">A simple anatomy of a break.</h2>
+        </div>
+        <ol>
+          <li><strong>Notice the loop.</strong> Where do you keep suffering, shrinking, overreaching, hiding, or repeating?</li>
+          <li><strong>Find it in the body.</strong> Track sensation, emotion, and the nervous-system strategy underneath.</li>
+          <li><strong>Name the protection.</strong> What is this pattern trying to prevent, secure, or control?</li>
+          <li><strong>Contact aliveness.</strong> What truth, desire, boundary, grief, hunger, or power wants room?</li>
+          <li><strong>Make one clean new move.</strong> Try something different in relationship, small enough to be real, brave enough to matter.</li>
+        </ol>
+      </section>
+
+      <section id="signup" class="signup" aria-labelledby="signup-title">
+        <div class="signup-copy">
+          <span class="eyebrow">Interest list</span>
+          <h2 id="signup-title">Want to hear when Pattern Break opens?</h2>
+          <p>
+            Leave your name, email, and phone number. Sof will use this to follow
+            up about future Pattern Break offerings, calls, and invitations.
+          </p>
+        </div>
+
+        <form class="signup-form" id="signup-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+          </div>
+          <div class="form-row hidden-field" aria-hidden="true">
+            <label for="website">Website</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+          <input type="hidden" name="source" value="patternbreak.social" />
+          <button class="button button-primary" type="submit">Sign me up</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="privacy-note">
+            No spam. Just the next doorway when there is one.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="submit.js"></script>
+  </body>
+</html>
